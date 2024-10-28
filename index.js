@@ -21,7 +21,7 @@ const connectToMongoDB = async () => {
 
         // Load models (add your models here)
         require('./models/StudentModal');
-        require('./models/UsersModal');
+        require('./models/StudentModal');
         console.log('Models loaded successfully.');
     } catch (err) {
         console.error("Error connecting to MongoDB:", err);
